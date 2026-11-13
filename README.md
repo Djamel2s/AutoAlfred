@@ -104,7 +104,7 @@ La démonstration doit rendre visible l'évolution des capacités du robot, et p
 
 Évaluation finale sur un jeu indépendant : mêmes types de missions, environnements et formulations jamais vus pendant l'optimisation.
 
-## Outils MCP
+## Outils
 
 `navigate_to` · `look` · `detect` · `pick` · `place` · `read_text` · `web_search` · `ask_human`
 
