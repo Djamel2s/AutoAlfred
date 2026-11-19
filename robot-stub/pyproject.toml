@@ -1,0 +1,19 @@
+[project]
+name = "autoalfred-robot-stub"
+version = "0.1.0"
+description = "Robot MCP simulé pour AutoAlfred (profils TonyPi / AiNex)"
+requires-python = ">=3.11"
+dependencies = ["mcp>=2.3,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "anyio"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["robot_stub*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
